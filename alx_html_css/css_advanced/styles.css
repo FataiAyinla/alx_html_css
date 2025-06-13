@@ -1,0 +1,427 @@
+/* Reset default margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HERO SECTION (Banner with nav inside) */
+.hero {
+  background-image: url("images/Object.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding-bottom: 100px;
+  font-family: 'Helvetica', sans-serif;
+}
+
+/* NAV inside hero */
+.hero header {
+  padding: 20px 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  height: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Helvetica', sans-serif;
+}
+
+/* HERO CONTENT */
+.hero-content h1 {
+  font-size: 60px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.hero-tags {
+  margin-bottom: 30px;
+}
+
+.hero-tags span {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hero-content button {
+  padding: 12px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  background-color: #C271FF;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* PROS SECTION */
+.pros-section {
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.pros-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+.instructors {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.instructor-card {
+  text-align: center;
+  max-width: 150px;
+}
+
+.instructor-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.instructor-card h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.instructor-card p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+
+/* Quoute styling */
+
+
+.quote {
+  background-color: #C271FF;
+  color: white;
+  padding: 80px 20px;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.quote-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.quote-container img {
+  width: 160px;
+  border-radius: 50%;
+}
+
+.quote-text {
+  max-width: 600px;
+}
+
+.quote-text blockquote {
+  font-style: italic;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.quote-text h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.quote-text p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* videos sec */
+
+
+.videos {
+  padding: 80px 40px;
+  background-color: #f9f9f9;
+  font-family: 'Helvetica', sans-serif;
+  text-align: center;
+}
+
+.videos h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.video-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  max-width: 250px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.video-thumb {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.video-thumb img:first-child {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 48px;  /* Adjusted for better proportion */
+  height: 48px;
+  pointer-events: none;
+}
+
+.video-card h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.video-card p {
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 10px;
+}
+
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.author h4 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.stars {
+  color: #C271FF;
+  font-size: 14px;
+}
+
+.duration {
+  font-size: 12px;
+  color: #888;
+}
+
+
+/* membership Styling */
+
+.membership {
+  padding: 80px 40px;
+  text-align: center;
+  background-color: #071629;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.membership h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.membership-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.membership-item {
+  max-width: 200px;
+}
+
+.membership-item img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.membership-item h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.membership-item p {
+  font-size: 14px;
+  color: #ffffffcc;
+  line-height: 1.5;
+}
+
+.membership-btn {
+  background-color: #C271FF;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.membership-btn:hover {
+  background-color: #a24bd1;
+}
+
+
+/* FAQ STYLING */
+
+.faq {
+  padding: 80px 40px;
+  background-color: #fff;
+  font-family: 'Helvetica', sans-serif;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 32px;
+  margin-bottom: 60px;
+  color: #071629;
+}
+
+.faq-columns {
+  display: flex;
+  justify-content: center;
+  gap: 120px; /* Increased spacing between the two FAQ columns */
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+
+.faq-column {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  color: #C271FF;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 14px;
+  color: #071629;
+  line-height: 1.6;
+}
+
+/* footerr styling */
+
+footer {
+  background-color: #071629;
+  padding: 20px 0 10px;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  text-align: center;
+}
+
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 40px;
+}
+
+.footer-logo {
+  width: 160px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons i {
+  font-size: 24px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.social-icons i:hover {
+  color: #C271FF;
+}
+Add commentMore actions
+.footer-note {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #fff;
+}

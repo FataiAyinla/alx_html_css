@@ -1,3 +1,5 @@
-# Headphones Landing Page 🎧
+# Headphones Landing Page
 
-A responsive, modern landing page for a headphones brand, built using **HTML** and **CSS**.
+Responsive landing page built with HTML and CSS.
+
+(Your project description here)
